@@ -1,0 +1,168 @@
+#house adventure
+l:front door:at the:A pair of huge wooden doors form the main entrance to the house. Iron studs protrude from the solid oak doors.
+l:east wall:beside the:The knapped flint walls glisten in the rain. There is a window here with leaded glass diamonds, but it's too dark to see inside.
+l:west wall:beside the:The knapped flint walls are covered with ivy. The rain beats against the darked windows.
+l:front path:on the:A slippery stone path leading through the garden to the front doors.
+
+o:bell:front door:a:It is firmly fixed to the wall.:visible:A rusty bell is fixed in an alcove by the door.
+o:window:east wall:a:You can't remove the window!:invisible:A window made of thick glass.
+o:window:west wall:a:You can't remove the window!:invisible:A window made of thick glass.
+o:rusty nail:east wall:a::visible:A six inch long rusty iron nail.
+
+x:front door.e:east wall
+x:east wall.w:front door
+x:front door.w:west wall
+x:west wall.e:front door
+x:front door.s:front path
+x:front path.n:front door
+
+l:east wing:outside the:This is the east wing of the house, protruding forward from the rest of the building. Like much of the rest of the house, the walls are knapped flint and the windows are dark. The ground underfoot is muddy and covered with weeds. The way east is blocked by a tall hedge.
+x:east wing.w:east wall
+x:east wall.e:east wing
+
+l:gardens east:in the:The flower beds and shrubs have not been tended for some time and are overgrown with weeds. The ground is muddy underfoot. To the east you can see a tall hedge.
+x:gardens east.n:east wing
+x:east wing.s:gardens east
+x:gardens east.w:front path
+x:front path.e:gardens east
+
+l:entrance to the hedge maze:outside the:A break in the tall hedges forms the entrance to this overgrown hedge maze.
+x:gardens east.e:entrance to the hedge maze
+x:entrance to the hedge maze.w:gardens east
+
+l:hedge maze 1:in the:Among tall hedges all alike.
+x:hedge maze 1.w:entrance to the hedge maze
+x:entrance to the hedge maze.e:hedge maze 1
+x:hedge maze 1.n:hedge maze 2
+x:hedge maze 1.s:hedge maze 13
+
+l:hedge maze 2:in the:Among tall hedges all alike.
+x:hedge maze 2.n:hedge maze 25
+x:hedge maze 2.s:hedge maze 1
+x:hedge maze 2.e:hedge maze 3
+
+l:hedge maze 3:in the:At a cross roads in the hedge maze.
+x:hedge maze 3.n:hedge maze 24
+x:hedge maze 3.w:hedge maze 2
+x:hedge maze 3.e:hedge maze 4
+x:hedge maze 3.s:hedge maze 5
+
+l:hedge maze 4:in the:At a cross roads in the hedge maze.
+x:hedge maze 4.n:hedge maze 26
+x:hedge maze 4.w:hedge maze 3
+x:hedge maze 4.e:hedge maze 9
+x:hedge maze 4.s:hedge maze 8
+
+
+l:hedge maze 5:in the:Among tall hedges all alike.
+x:hedge maze 5.n:hedge maze 3
+x:hedge maze 5.s:hedge maze 6
+
+l:hedge maze 6:in the:Among tall hedges all alike.
+x:hedge maze 6.n:hedge maze 5
+x:hedge maze 6.e:hedge maze 7
+
+
+l:hedge maze 7:in the:At a dead end in the hedge maze.
+x:hedge maze 7.w:hedge maze 6
+
+l:hedge maze 8:in the:At a dead end in the hedge maze.
+x:hedge maze 8.n:hedge maze 4
+
+l:hedge maze 9:in the:Among tall hedges all alike.
+x:hedge maze 9.w:hedge maze 4
+x:hedge maze 9.s:hedge maze 10
+
+l:hedge maze 10:in the:Among tall hedges all alike.
+x:hedge maze 10.n:hedge maze 9
+x:hedge maze 10.s:hedge maze 11
+
+l:hedge maze 11:in the:Among tall hedges all alike.
+x:hedge maze 11.n:hedge maze 10
+x:hedge maze 11.w:hedge maze 12
+
+l:hedge maze 12:in the:At a dead end in the hedge maze.
+x:hedge maze 12.e:hedge maze 11
+
+l:hedge maze 13:in the:Among tall hedges all alike.
+x:hedge maze 13.n:hedge maze 1
+x:hedge maze 13.e:hedge maze 14
+
+l:hedge maze 14:in the:Among tall hedges all alike.
+x:hedge maze 14.w:hedge maze 13
+x:hedge maze 14.e:hedge maze 16
+x:hedge maze 14.s:hedge maze 15
+
+l:hedge maze 15:in the:Among tall hedges all alike.
+x:hedge maze 15.n:hedge maze 14
+
+l:hedge maze 16:in the:Among tall hedges all alike.
+x:hedge maze 16.w:hedge maze 14
+x:hedge maze 16.e:hedge maze 17
+x:hedge maze 16.s:hedge maze 20
+
+l:hedge maze 17:in the:Among tall hedges all alike.
+x:hedge maze 17.w:hedge maze 16
+x:hedge maze 17.s:hedge maze 18
+
+l:hedge maze 18:in the:Among tall hedges all alike.
+x:hedge maze 18.n:hedge maze 17
+x:hedge maze 18.s:hedge maze 19
+
+l:hedge maze 19:in the:Among tall hedges all alike.
+x:hedge maze 19.n:hedge maze 18
+
+l:hedge maze 20:in the:Among tall hedges all alike.
+x:hedge maze 20.n:hedge maze 16
+x:hedge maze 20.s:hedge maze 21
+
+l:hedge maze 21:in the:Among tall hedges all alike.
+x:hedge maze 21.n:hedge maze 20
+x:hedge maze 21.w:hedge maze 22
+x:hedge maze 21.s:hedge maze 28
+
+l:hedge maze 22:in the:Among tall hedges all alike.
+x:hedge maze 22.w:hedge maze 23
+x:hedge maze 22.e:hedge maze 21
+x:hedge maze 22.s:hedge maze 27
+
+l:hedge maze 23:in the:Among tall hedges all alike.
+x:hedge maze 23.w:potting shed
+x:hedge maze 23.e:hedge maze 22
+
+l:hedge maze 24:in the:Among tall hedges all alike.
+x:hedge maze 24.s:hedge maze 3
+x:hedge maze 24.w:hedge maze 25
+
+l:hedge maze 25:in the:Among tall hedges all alike.
+x:hedge maze 25.e:hedge maze 24
+x:hedge maze 25.s:hedge maze 2
+
+l:hedge maze 26:in the:Among tall hedges all alike.
+x:hedge maze 26.s:hedge maze 4
+x:hedge maze 26.e:fountain
+
+l:hedge maze 27:in the:Among tall hedges all alike.
+x:hedge maze 27.n:hedge maze 22
+x:hedge maze 27.e:hedge maze 28
+
+l:hedge maze 28:in the:Among tall hedges all alike.
+x:hedge maze 28.w:hedge maze 27
+x:hedge maze 28.n:hedge maze 21
+
+l:fountain:by the:A beautiful stone fountain with a whale spouting water. It must have stopped working some time ago and the water looks brown and murky.
+x:fountain.w:hedge maze 26
+o:whale:fountain:a::invisible:A stone whale fixed by a narrow pedestal to the pool of the fountain.
+o:water:fountain:some:replenish:invisible:Murky brown water, smelling a bit of rust. Squiggly little insect larvae swim about in it.
+o:fountain:fountain:a:It is fixed firmly to the ground.:invisible:A carved solid stone fountain with a whale on top, and maritime scenes carved into it.
+
+l:potting shed:inside the:A musty smelling timber and brick potting shed. The place is full of cobwebs and there are wooden benches here covered in junk. Through the dirty window you can make out the front drive and some woods. There is a door to the east and one to the west. The door to the west is jammed and the lock rusted solid.
+x:potting shed.e:hedge maze 23
+
+o:small flower pot:potting shed:a::visible:A small clay flower pot.
+o:large flower pot:potting shed:a::visible:A large clay flower pot.
+o:spade:potting shed:a::visible:A slightly rusty old spade, probably for working in the garden.
+o:plant bulbs:potting shed:some::visible:Some dried out old plant bulbs of some kind.
+o:junk:potting shed:piles of:None of it is of any use:visible:Mostly bits of rusty old metal, broken pots, fag ends and dirt.
+
+
