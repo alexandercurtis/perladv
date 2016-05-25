@@ -1,11 +1,12 @@
 # Perladv
 A text adventure engine written in Perl.
-by Alex Curtis, 2008
+
+**Bad News** The `house.adv` data file is for an earlier incarnation of the engine, and doesn't work properly any more. :-(
 
 ## Usage
 
     perl adv.pl house.adv
-
+	
 ## Playing the game
 
 Like any text adventure, the game is played by reading the description of your situation and reacting by entering simple commands of the form `VERB OBJECT`.
@@ -30,7 +31,7 @@ Possible verbs include:
 * `southwest`,`sw`
 * `in`
 * `out`,`exit`
-* `chk`
+* `chk` 
 * `take`,`get`
 * `drop`
 * `inventory`,`inv`,`invent`
@@ -53,3 +54,4 @@ There are various *god commands* that can be used to develop an adventure while 
 * `debug <number>` sets the level of debug output
 
 Use `addlocation` and `addexit` god commands to add to the world. `addlocation` can also be used to edit a location by overwriting it. Save with `write adventure_.adv`.
+
